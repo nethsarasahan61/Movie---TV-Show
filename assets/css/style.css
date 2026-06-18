@@ -1,5 +1,5 @@
 body{
-    background-image: url(/assets/imgs/background.jpg);
+    background-image: url(/assets/imgs/b1.jpg);
 }
 .nav-bar{
     position: fixed;
@@ -50,4 +50,17 @@ body{
 }
 .desc{
     color: white;
+}
+.poster1{
+    border-radius: 12px;
+}
+.title{
+    color: white;
+    margin-left: 5px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    width: 100%;
 }
