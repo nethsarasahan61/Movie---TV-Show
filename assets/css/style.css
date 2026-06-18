@@ -53,6 +53,10 @@ body{
 }
 .poster1{
     border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+.poster1:hover{
+    transform: translateY(-10px);
 }
 .title{
     color: white;
@@ -63,4 +67,10 @@ body{
     justify-content: space-evenly;
     align-items: center; 
     width: 100%;
+}
+footer{
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
 }
